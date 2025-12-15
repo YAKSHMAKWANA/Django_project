@@ -1,0 +1,332 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block body%}
+	
+	<!-- Hidden Navigation Bar -->
+    <section class="hidden-bar right-align">
+        
+        <div class="hidden-bar-closer">
+            <button><span class="flaticon-multiply"></span></button>
+        </div>
+        
+        <!-- Hidden Bar Wrapper -->
+        <div class="hidden-bar-wrapper">
+            
+            <div class="logo">
+            	<a href="index.html"><img src="{% static 'images/logo-2.png'%}" alt="" /></a>
+            </div>
+            <div class="content-box">
+            	<h2>About Us</h2>
+                <div class="text">Europe may be famous for its history, monuments and sightseeing, but summer is for enjoying the outdoors. For hiking, cycling, swimming, splashing around in the water and exploring your limits. </div>
+                <a href="/contact/" class="theme-btn btn-style-one"><span class="txt">Contact Us</span></a>
+            </div>
+            <div class="contact-info">
+            	<h2>Contact Info</h2>
+                <ul class="list-style-one">
+                	<li><span class="icon fa fa-map-marker"></span>Rock St 12, Newyork City, USA</li>
+                    <li><span class="icon fa fa-phone"></span>(222) 999-000-9999</li>
+                    <li><span class="icon fa fa-envelope-o"></span>ghurbo@gmail.com</li>
+                    <li><span class="icon fa fa-clock-o"></span>Week Days: 09.00 to 18.00 Sunday: Closed</li>
+                </ul>
+            </div>
+        </div><!-- / Hidden Bar Wrapper -->
+        
+    </section>
+    <!-- End / Hidden Bar -->
+	
+	<!--Page Title-->
+    <section class="page-title" style="background-image:url({% static 'images/background/6.jpg'%})">
+    	<div class="auto-container">
+			<h2>Contact Us</h2>
+			<ul class="page-breadcrumb">
+				<li><a href="/index/">home</a></li>
+				<li>Contact Us</li>
+			</ul>
+        </div>
+    </section>
+    <!--End Page Title-->
+	
+	<!-- Contact Page Section -->
+	<section class="contact-page-section">
+		<div class="auto-container">
+			
+			<!-- Sec Title -->
+			<div class="sec-title">
+				<h2>We are ready <br> feel free contact us</h2>
+				<div class="text"> Nullam elementum consequat lacus, sit amet pulvinar urna hendrerit sit amet. Interdum </div>
+			</div>
+			
+			<div class="inner-container">
+				
+				<!-- Contact Form -->
+				<div class="contact-form">
+					<form method="post" action="https://gico.io/ghurbo/demos/ghurbo/sendemail.php" id="contact-form">
+						<div class="row clearfix">
+						
+							<!-- Form Group -->
+							<div class="form-group col-lg-6 col-md-6 col-sm-12">
+								<label>First Name *</label>
+								<input type="text" name="firstname" placeholder="First name" required>
+							</div>
+							
+							<!-- Form Group -->
+							<div class="form-group col-lg-6 col-md-6 col-sm-12">
+								<label>Last Name *</label>
+								<input type="text" name="lastname" placeholder="Last name" required>
+							</div>
+							
+							<!-- Form Group -->
+							<div class="form-group col-lg-6 col-md-6 col-sm-12">
+								<label>Email *</label>
+								<input type="email" name="email" placeholder="Email *" required>
+							</div>
+							
+							<!-- Form Group -->
+							<div class="form-group col-lg-6 col-md-6 col-sm-12">
+								<label>Phone *</label>
+								<input type="text" name="phone" placeholder="Phone" required>
+							</div>
+							
+							<!-- Form Group -->
+							<div class="form-group col-lg-12 col-md-12 col-sm-12">
+								<label>Message *</label>
+								<textarea class="" name="message" placeholder="Message"></textarea>
+							</div>
+							
+							<div class="form-group col-lg-12 col-md-12 col-sm-12">
+								<button type="submit" class="theme-btn btn-style-one"><span class="txt">Send</span></button>
+							</div>
+							
+						</div>
+					</form>
+				</div>
+				
+			</div>
+			
+			<div class="row clearfix">
+				
+				<!-- Contact Info Box -->
+				<div class="contact-info-box col-lg-4 col-md-6 col-sm-12">
+					<div class="box-inner">
+						<h5>Address</h5>
+						<p>35 albot Street (at Kent Street) London, <br> Ontario</p>
+						<p>Wallstreet St., New York, CA 2364</p>
+					</div>
+				</div>
+				
+				<!-- Contact Info Box -->
+				<div class="contact-info-box col-lg-4 col-md-6 col-sm-12">
+					<div class="box-inner">
+						<h5>Phone</h5>
+						<p>Please call us and we’ll be happy to <br> assist you</p>
+						<p>(+880) 616481</p>
+					</div>
+				</div>
+				
+				<!-- Contact Info Box -->
+				<div class="contact-info-box col-lg-4 col-md-6 col-sm-12">
+					<div class="box-inner">
+						<h5>Email address</h5>
+						<p>Please email contact form and we’ll be happy to assist you</p>
+						<p>youremail@example.com</p>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Contact Page Section -->
+
+	<!-- Map Section -->
+	<section class="map-section">
+		<!--Map Outer-->
+		<div class="map-outer">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805184.6331292129!2d144.49266890254142!3d-37.97123689954809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2s!4v1574408946759!5m2!1sen!2s" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</div>
+	</section>
+	<!-- End Map Section -->
+	
+	<!-- Call To Action Section -->
+	<section class="call-to-action-section" style="background-image:url({% static 'images/background/4.jpg'%})">
+		<div class="auto-container">
+			<h2>Upscale Downtown Suites</h2>
+			<div class="street">700 MAIN STREET</div>
+			<a href="#" class="theme-btn btn-style-one"><span class="txt">Trending Tour</span></a>
+		</div>
+	</section>
+	<!-- End Call To Action Section -->
+	
+	<!-- Main Footer -->
+    <footer class="main-footer style-two" style="background-image:url({% static 'images/background/5.jpg'%})">
+		<div class="auto-container">
+		
+        	<!-- Widgets Section -->
+            <div class="widgets-section">
+				
+            	<div class="row clearfix">
+				
+					<!-- Big Column -->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+							
+							<!-- Footer Column -->
+                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget logo-widget">
+									<div class="logo">
+                                    	<a href="index.html"><img src="{% static 'images/logo.png'%}" alt="" /></a>
+                                    </div>
+									<div class="text">We aim to ensure that you never miss an opportunity to travel.</div>
+									<!-- Social Nav -->
+									<ul class="social-nav">
+										<li class="follow">Follow Us</li>
+										<li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
+										<li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+										<li><a href="#"><span class="fa fa-pinterest-p"></span></a></li>
+										<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+										<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+									</ul>
+									<div class="newsletter-box">
+										<div class="newsletter-text">Subscribe to Our Newsletter</div>
+										<!-- Newsletter Form -->
+										<div class="newsletter-form">
+											<form method="post" action="https://gico.io/ghurbo/demos/ghurbo/contact.html">
+												<div class="form-group clearfix">
+													<input type="email" name="email" value="" placeholder="Enter Your Email Address" required>
+													<button type="submit" class="theme-btn join-btn"><span class="txt">Join</span></button>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<!-- Footer Column -->
+                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+									<h5>solutions</h5>
+									<ul class="footer-list">
+										<li><a href="#">Activities</a></li>
+										<li><a href="#">Attractions</a></li>
+										<li><a href="#">Entertainment</a></li>
+										<li><a href="#">Events & Festivals</a></li>
+										<li><a href="#">Food & Restaurants</a></li>
+										<li><a href="#">Outdoors</a></li>
+									</ul>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+					
+					<!-- Big Column -->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+							
+							<!--Footer Column-->
+                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+									<h5>explore</h5>
+									<ul class="footer-list">
+										<li><a href="#">Hotels Sitemap</a></li>
+										<li><a href="#">Flights Sitemap</a></li>
+										<li><a href="#">Vacations Sitemap</a></li>
+										<li><a href="#">Rental Cars</a></li>
+										<li><a href="#">Sitemap</a></li>
+										<li><a href="#">Cruises Sitemap</a></li>
+										<li><a href="#">Submit an Event</a></li>
+									</ul>
+								</div>
+							</div>
+							
+							<!--Footer Column-->
+                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget news-widget">
+									<h5>Update News</h5>
+									<div class="widget-content">
+										<div class="news-box">
+											<h5><a href="blog-single.html">Bucket list how-to: Glamping and trekking in Patagonia</a></h5>
+										</div>
+										<div class="news-box">
+											<h5><a href="blog-single.html">10 things you probably don’t know about Wales</a></h5>
+										</div>
+										<div class="news-box">
+											<h5><a href="blog-single.html">10 things you probably don’t know about Wales</a></h5>
+										</div>
+										<div class="news-box">
+											<h5><a href="blog-single.html">Do you really need an International Driver’s Permit?</a></h5>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+		
+			<!-- Footer Bottom -->
+			<div class="footer-bottom">
+				<div class="copyright">&copy; 2020 All Rights Reserved Terms of Use </div>
+			</div>
+		
+		</div>
+		
+	</footer>
+	
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-circle-up"></span></div>
+
+<!-- Search Popup -->
+<div id="search-popup" class="search-popup">
+	<div class="close-search theme-btn"><span class="flaticon-multiply"></span></div>
+	<div class="popup-inner">
+		<div class="overlay-layer"></div>
+    	<div class="search-form">
+        	<form method="post" action="https://gico.io/ghurbo/demos/ghurbo/index.html">
+            	<div class="form-group">
+                	<fieldset>
+                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                        <input type="submit" value="Search Now!" class="theme-btn">
+                    </fieldset>
+                </div>
+            </form>
+            
+            <br>
+            <h3>Recent Search Keywords</h3>
+            <ul class="recent-searches">
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Beauty</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">LifeStyle</a></li>
+            </ul>
+        
+        </div>
+        
+    </div>
+</div>
+
+<script src="{% static 'js/jquery.js'%}"></script>
+<script src="{% static 'js/popper.min.js'%}"></script>
+<script src="{% static 'js/bootstrap.min.js'%}"></script>
+<script src="{% static 'js/jquery.mCustomScrollbar.concat.min.js'%}"></script>
+<script src="{% static 'js/jquery.fancybox.js'%}"></script>
+<script src="{% static 'js/appear.js'%}"></script>
+<script src="{% static 'js/owl.js'%}"></script>
+<script src="{% static 'js/wow.js'%}"></script>
+<script src="{% static 'js/validate.js'%}"></script>
+<script src="{% static 'js/jquery-ui.js'%}"></script>
+<script src="{% static 'js/script.js'%}"></script>
+
+</body>
+
+<!-- Mirrored from gico.io/ghurbo/demos/ghurbo/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Nov 2025 15:15:00 GMT -->
+</html>
+
+{% endblock body%}
